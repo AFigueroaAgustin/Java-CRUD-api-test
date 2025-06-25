@@ -6,6 +6,16 @@ Incluye un CRUD completo para la entidad `Producto`.
 
 ---
 
+### 🧠 Tecnologías utilizadas
+
+- **Java 17**
+- **Spring Boot**
+- **Hibernate (JPA)**
+- **PostgreSQL**
+- **NetBeans IDE**
+
+---
+
 ## ✨ Características principales
 
 - 🔄 Operaciones CRUD: Crear, Leer, Actualizar y Eliminar productos.  
@@ -93,12 +103,15 @@ Incluye un CRUD completo para la entidad `Producto`.
 
 ---   
 ## 📚 Endpoints disponibles
-Método	Ruta	Descripción
-GET	/productos	Obtener lista de todos productos
-POST	/productos	Crear un nuevo producto
-PUT	/productos/{id}	Actualizar producto por ID
-DELETE	/productos/{id}	Eliminar producto por ID
+| Método | Ruta              | Descripción                      |
+| ------ | ----------------- | -------------------------------- |
+| GET    | `/productos`      | Obtener lista de todos productos |
+| POST   | `/productos`      | Crear un nuevo producto          |
+| PUT    | `/productos/{id}` | Actualizar producto por ID       |
+| DELETE | `/productos/{id}` | Eliminar producto por ID         |
+
 
 ⚙️ Uso
 Probar los endpoints con herramientas como Postman o curl para realizar operaciones CRUD sobre productos.
+
 
