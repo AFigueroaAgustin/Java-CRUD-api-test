@@ -53,6 +53,14 @@ Incluye un CRUD completo para la entidad `Producto`.
 2. Abrí el proyecto en tu IDE favorito (NetBeans, IntelliJ, etc.).
 
 3. Configurá la conexión a tu base de datos PostgreSQL en el archivo `src/main/resources/application.properties`:
+   ### 🛠 Archivo de configuración
+
+   Este proyecto incluye un archivo de plantilla para las variables de entorno necesarias.
+
+   📄 **.env.template**
+
+   Dentro de este archivo se encuentran las variables que deben completarse para que la aplicación funcione correctamente.  
+   Cada usuario debe crear su propio archivo `.env` a partir de esta plantilla.
 
    ```properties
    spring.datasource.url=jdbc:postgresql://localhost:5432/tu_base_de_datos
